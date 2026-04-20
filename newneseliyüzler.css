@@ -1,0 +1,57 @@
+h1 {
+  text-align: center;
+  color: azure;
+}
+
+.foto {
+  height: 300px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+body {
+  margin: 0;
+  background: #111;
+  overflow: hidden;
+}
+.modeller {
+  color: azure;
+}
+.blob {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.8;
+  z-index: -1;
+}
+.blob1 {
+  background: rgb(250, 22, 239);
+  top: -25%;
+  left: 70%;
+}
+
+.blob2 {
+  background: rgb(144, 16, 176);
+  top: -20%;
+  left: 35%;
+}
+
+.blob3 {
+  background: rgb(19, 183, 242);
+  top: 25%;
+  left: 60%;
+}
+
+.blob4 {
+  background: rgb(49, 190, 17);
+  top: 60%;
+  left: 40%;
+}
+
+.blob5 {
+  background: rgb(247, 255, 5);
+  top: -20%;
+  left: -10%;
+}
